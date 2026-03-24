@@ -51,20 +51,20 @@ async def _clear_(chat_id):
 class Call(PyTgCalls):
     def __init__(self):
         self.userbot1 = Client(
-            name="ShrutiXAss1",
-            api_id=config.API_ID,
-            api_hash=config.API_HASH,
-            session_string=str(config.STRING1),
+            name="⏤ 𝐅 𝐋 𝐎 𝐑 𝐀 𝚇 𝐌 𝚄 𝚂 𝐈 𝐂 𝂈̽ ᰼ 🌷",
+            api_id=config.32426469,
+            api_hash=config.6cc009055eb3c64d5b50d6cea35ebee8,
+            session_string=str(config.BQJdu6kAoX7BWrAj4fppBsqLWTkYriNmpu7eEl7SVaRG6K_b9YLPwI3RLTqmOL7zdrfJYbyy1vf3nRl_MZ5alwKQ12eKIN26v8bdFtR_iZGhwLLoSNSCwI0ny-wWge2FEc3DOEJ1kGgux0EwqdSQ6GnYeydPuIJ0cPRvMxpscGPnDcvFLbCZRE34VZlTAMk3F3NLHzvg2MqtlQ5dGIfZYMceIwfxtZF8cWj3iJO99RroAXsqtVKURwi9LUHiWX2iRMPKU-psn5Q5Lks3Nkc9I-7grWgP0u2UNZa6OTFjJ7wCATYqLN3944Ewjk_qptVt6RGdTUVRZ8avhWJYOzsn6poDt7pTEAAAAAGZ_ZuoAA),
         )
         self.one = PyTgCalls(
             self.userbot1,
             cache_duration=100,
         )
         self.userbot2 = Client(
-            name="ShrutiXAss2",
-            api_id=config.API_ID,
-            api_hash=config.API_HASH,
-            session_string=str(config.STRING2),
+            name="⏤ 𝐅 𝐋 𝐎 𝐑 𝐀 𝚇 𝐌 𝚄 𝚂 𝐈 𝐂 𝂈̽ ᰼ 🌷",
+            api_id=config.32426469,
+            api_hash=config.6cc009055eb3c64d5b50d6cea35ebee8,
+            session_string=str(config.BAJdu6kAmK6JNAoTzvvcY_U0j7kO6n7ZfZ0fnXz-Kh7Tq6bikUyu5Y06NTPMOwp_VtuWJYvaS4uNmFiDiKa38PCKFi9NpS3I15EYUucFYydXl-AoW_V_jEYGTYzpwrRXkh7plbfq9U-5wECeg30fI_y7MKHVV8bMBHdrCKKNS8mJAo1haMDef2V9KO6cxUDYFDHOSgoxNPFh_mBO5lBjPps-v6nb1gCbBZsi8WVDZYitoaBKQ4HMVWBiJzPXucn14lHxw-0576fPmYD9Brtz_6-U8_gru26wJkC_1g0i6n9J1dGPLcOMxVHrMC3rqHI0ImnmYd4URrIWfPkM1CZLH96Vzrl0wAAAAAIEB3suAA),
         )
         self.two = PyTgCalls(
             self.userbot2,
