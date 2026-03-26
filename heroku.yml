@@ -1,5 +1,6 @@
-build:
-  docker:
-    worker: Dockerfile
-run:
-  worker: bash start
+services:
+  - type: worker
+    name: worker
+    env: docker
+    dockerfilePath: ./Dockerfile
+    startCommand: bash start.sh
